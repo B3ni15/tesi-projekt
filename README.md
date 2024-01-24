@@ -19,3 +19,7 @@
 
 - Balló Benedek: HTML & CSS & Design
 - György Tamás: Szöveg & Ötletek & Design & Felépítés
+
+## Sourcees: 
+
+- https://spline.design
