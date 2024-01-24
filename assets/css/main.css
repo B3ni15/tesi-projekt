@@ -7,7 +7,7 @@
 }
 
 body {
-    color: #000000;
+    color: #ffffff;
     background: #1A1423;
     overflow-x: hidden;
     font-family: Gotham;
@@ -55,20 +55,41 @@ nav ul li a:hover {
     transition: 0.5s;
 }
 
-header h1 {
-    text-align: center;
-}
-
-.phone{
-    display: block;
-    height: 900px;
-    width: 100%;
-}
-
 canvas {
     background-color: #1A1423;
-
     display: block;
     height: 900px;
     width: 100%;
+}
+
+.fold {
+    border: #eee 1px solid;
+    float: right;
+    margin-right: 150px;
+    margin-top: 160px;
+    width: 600px;
+    height: 600px;
+}
+
+.kezdes {
+    border: #eee 1px solid;
+    float: left;
+    margin-top: 160px;
+    width: 1120px;
+    height: 600px;
+}
+
+section {
+    border: #eee 1px solid;
+    float: left;
+    height: 900px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.kek-text {
+    background: linear-gradient(86deg,#1067ED 10%,#55C2C4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
