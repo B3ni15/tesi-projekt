@@ -1,9 +1,9 @@
 @font-face {
     font-family: Gotham;
-    src: url(./fonts/HomepageBaukasten-Bold.woff2) format('woff2'),
-         url(./fonts/HomepageBaukasten-Bold.woff) format('woff'),
-         url(./fonts/HomepageBaukasten-Bold.ttf) format('truetype'),
-         url(./fonts/HomepageBaukasten-Bold.eot) format('embedded-opentype');
+    src: url(../fonts/HomepageBaukasten-Bold.woff2) format('woff2'),
+         url(../fonts/HomepageBaukasten-Bold.woff) format('woff'),
+         url(../fonts/HomepageBaukasten-Bold.ttf) format('truetype'),
+         url(../fonts/HomepageBaukasten-Bold.eot) format('embedded-opentype');
 }
 
 body {
