@@ -15,7 +15,7 @@ body {
 
 nav {
     background-color: #44434353;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.329);
     backdrop-filter: blur(10px);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
     position: fixed;
@@ -55,36 +55,18 @@ nav ul li a:hover {
     transition: 0.5s;
 }
 
-canvas {
-    background-color: #1A1423;
-    display: block;
-    height: 900px;
-    width: 100%;
-}
-
-.fold {
-    border: #eee 1px solid;
-    float: right;
-    margin-right: 150px;
-    margin-top: 160px;
-    width: 600px;
-    height: 600px;
-}
-
 .kezdes {
-    border: #eee 1px solid;
-    float: left;
-    margin-top: 160px;
-    width: 1110px;
-    height: 600px;
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
 }
 
 section {
-    border: #eee 1px solid;
     float: left;
     height: 900px;
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .kek-text {
@@ -92,4 +74,63 @@ section {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.lila-text {
+    background: linear-gradient(86deg,#3e0a92 10%,#5560c4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sarga-text {
+    background: linear-gradient(86deg,#e8b71a 10%,#c4550a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.zold-text {
+    background-clip: text;
+    background: linear-gradient(86deg,#0a8e0a 10%,#0a8e0a 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.orange-text {
+    background-clip: text;
+    background: linear-gradient(86deg,#ff8c00 10%,#643803 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+footer {
+    margin-top: 35%;
+} 
+
+footer p {
+    text-align: center;
+    margin: auto;
+}
+
+footer a:hover {
+    color: blue;
+    transition: 0.5s;
 }
