@@ -155,8 +155,6 @@ footer a:hover {
 .lenyeg {
     margin-top: 10%;
     width: 100%;
-    text-align: justify;
-    text-align: center;
 }
 
 .elso-kep {
@@ -171,106 +169,46 @@ footer a:hover {
         0px 8px 16px rgba(0, 255, 255, 0.5);
 }
 
-.elso {
-    float: left;
-    width: 35%;
-    height: 50%;
-    margin-left: 5%;
-
-    border-radius: 3%;
-
-    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
-        0px 2px 4px rgba(0, 255, 255, 0.5),
-        0px 4px 8px rgba(0, 255, 255, 0.5),
-        0px 8px 16px rgba(0, 255, 255, 0.5);
-}
-
-.elso img {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    height: auto;
-    border-radius: 3%;
-}
-
-.masodik {
-    float: right;
-    width: 35%;
-    height: 50%;
-    margin-right: 5%;
-    margin-top: 40%;
-
-    border-radius: 3%;
-
-    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
-        0px 2px 4px rgba(0, 255, 255, 0.5),
-        0px 4px 8px rgba(0, 255, 255, 0.5),
-        0px 8px 16px rgba(0, 255, 255, 0.5);
-}
-
-.masodik img {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-    height: auto;
-    border-radius: 3%;
-}
-
-.masodik-kep {
-    border-radius: 0% 0% 3% 3% !important;
-}
-
-.harmadik-kep {
-    border-radius: 0% 0% 3% 3% !important;
-}
-
-.negyedik-kep {
-    border-radius: 0% 0% 3% 3% !important;
-}
-
+.elso,
 .harmadik {
-    float: left;
-    width: 35%;
-    height: 50%;
-    margin-left: 5%;
-    margin-top: 40%;
-
-    border-radius: 3%;
-
-    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
-        0px 2px 4px rgba(0, 255, 255, 0.5),
-        0px 4px 8px rgba(0, 255, 255, 0.5),
-        0px 8px 16px rgba(0, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: flex-start;
 }
 
+.elso h2,
+.harmadik h2,
+.elso p,
+.harmadik p {
+    flex: 1;
+}
+
+.elso img,
 .harmadik img {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+    width: 300px;
     height: auto;
-    border-radius: 3%;
+    margin-right: 20px;
 }
 
+.masodik,
 .negyedik {
-    float: right;
-    width: 35%;
-    height: 50%;
-    margin-right: 5%;
-    margin-top: 40%;
-    margin-bottom: 10%;
-
-    border-radius: 3%;
-
-    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
-        0px 2px 4px rgba(0, 255, 255, 0.5),
-        0px 4px 8px rgba(0, 255, 255, 0.5),
-        0px 8px 16px rgba(0, 255, 255, 0.5);
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 100px;
+    align-items: flex-start;
 }
 
+.masodik h2,
+.negyedik h2,
+.masodik p,
+.negyedik p {
+    flex: 1;
+}
+
+.masodik img,
 .negyedik img {
-    width: 100%;
-    margin: 0 auto;
-    display: block;
+    width: 300px;
     height: auto;
-    border-radius: 3%;
+    margin-left: 20px;
 }
