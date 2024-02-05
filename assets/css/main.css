@@ -11,20 +11,24 @@ body {
     background: #1A1423;
     overflow-x: hidden;
     font-family: Gotham;
+    margin-bottom: 300px;
+    position: relative;
 }
 
 nav {
     background-color: #44434353;
     border-bottom: 1px solid rgba(238, 238, 238, 0.329);
     backdrop-filter: blur(10px);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
     position: fixed;
     top: 0;
     width: 100%;
-    height: 50px;
     margin: auto;
     left: 0;
     right: 0;
+    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+    0px 2px 4px rgba(0,255,255,0.5), 
+    0px 4px 8px rgba(0,255,255,0.5), 
+    0px 8px 16px rgba(0,255,255,0.5);
 }
 
 nav ul {
@@ -104,26 +108,36 @@ section {
     -webkit-background-clip: text;
 }
 
+footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 3500px;
+    background-color: #44434353;
+    border-top: 1px solid rgba(238, 238, 238, 0.329);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+                0px 2px 4px rgba(0,255,255,0.5), 
+                0px 4px 8px rgba(0,255,255,0.5), 
+                0px 8px 16px rgba(0,255,255,0.5);
+    width: 100%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 footer ul a {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
-    list-style-type: none;
-    text-align: center;
     margin: 10px;
 }
-
-footer ul {
-    text-align: center;
-}
-
-li {
-    display: inline;
-}
-
-footer {
-    margin-top: 35%;
-} 
 
 footer p {
     text-align: center;
@@ -133,4 +147,127 @@ footer p {
 footer a:hover {
     color: blue;
     transition: 0.5s;
+}
+
+
+.lenyeg {
+    margin-top: 10%;
+    width: 100%;
+    text-align: justify;
+    text-align: center;
+}
+
+.elso-kep {
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    border-radius: 3%;
+    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+    0px 2px 4px rgba(0,255,255,0.5), 
+    0px 4px 8px rgba(0,255,255,0.5), 
+    0px 8px 16px rgba(0,255,255,0.5);
+}
+
+.elso {
+    float: left;
+    width: 35%;
+    height: 50%;
+    margin-left: 5%;
+
+    border-radius: 3%;
+
+    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+    0px 2px 4px rgba(0,255,255,0.5), 
+    0px 4px 8px rgba(0,255,255,0.5), 
+    0px 8px 16px rgba(0,255,255,0.5);
+}
+
+.elso img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    border-radius: 3%;
+}
+
+.masodik {
+    float: right;
+    width: 35%;
+    height: 50%;
+    margin-right: 5%;
+    margin-top: 40%;
+
+    border-radius: 3%;
+
+    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+    0px 2px 4px rgba(0,255,255,0.5), 
+    0px 4px 8px rgba(0,255,255,0.5), 
+    0px 8px 16px rgba(0,255,255,0.5);
+}
+
+.masodik img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    border-radius: 3%;
+}
+
+.masodik-kep{
+    border-radius: 0% 0% 3% 3% !important;
+}
+
+.harmadik-kep{
+    border-radius: 0% 0% 3% 3% !important;
+}
+
+.negyedik-kep{
+    border-radius: 0% 0% 3% 3% !important;
+}
+
+.harmadik {
+    float: left;
+    width: 35%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 40%;
+
+    border-radius: 3%;
+
+    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+    0px 2px 4px rgba(0,255,255,0.5), 
+    0px 4px 8px rgba(0,255,255,0.5), 
+    0px 8px 16px rgba(0,255,255,0.5);
+}
+
+.harmadik img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    border-radius: 3%;
+}
+
+.negyedik {
+    float: right;
+    width: 35%;
+    height: 50%;
+    margin-right: 5%;
+    margin-top: 40%;
+
+    border-radius: 3%;
+
+    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
+    0px 2px 4px rgba(0,255,255,0.5), 
+    0px 4px 8px rgba(0,255,255,0.5), 
+    0px 8px 16px rgba(0,255,255,0.5);
+}
+
+.negyedik img {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    border-radius: 3%;
 }
