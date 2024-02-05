@@ -1,9 +1,9 @@
 @font-face {
     font-family: Gotham;
     src: url(../fonts/HomepageBaukasten-Bold.woff2) format('woff2'),
-         url(../fonts/HomepageBaukasten-Bold.woff) format('woff'),
-         url(../fonts/HomepageBaukasten-Bold.ttf) format('truetype'),
-         url(../fonts/HomepageBaukasten-Bold.eot) format('embedded-opentype');
+        url(../fonts/HomepageBaukasten-Bold.woff) format('woff'),
+        url(../fonts/HomepageBaukasten-Bold.ttf) format('truetype'),
+        url(../fonts/HomepageBaukasten-Bold.eot) format('embedded-opentype');
 }
 
 body {
@@ -25,10 +25,10 @@ nav {
     margin: auto;
     left: 0;
     right: 0;
-    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
-    0px 2px 4px rgba(0,255,255,0.5), 
-    0px 4px 8px rgba(0,255,255,0.5), 
-    0px 8px 16px rgba(0,255,255,0.5);
+    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+        0px 2px 4px rgba(0, 255, 255, 0.5),
+        0px 4px 8px rgba(0, 255, 255, 0.5),
+        0px 8px 16px rgba(0, 255, 255, 0.5);
 }
 
 nav ul {
@@ -74,21 +74,21 @@ section {
 }
 
 .kek-text {
-    background: linear-gradient(86deg,#1067ED 10%,#55C2C4 100%);
+    background: linear-gradient(86deg, #1067ED 10%, #55C2C4 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .lila-text {
-    background: linear-gradient(86deg,#3e0a92 10%,#5560c4 100%);
+    background: linear-gradient(86deg, #3e0a92 10%, #5560c4 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .sarga-text {
-    background: linear-gradient(86deg,#e8b71a 10%,#c4550a 100%);
+    background: linear-gradient(86deg, #e8b71a 10%, #c4550a 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -96,40 +96,35 @@ section {
 
 .zold-text {
     background-clip: text;
-    background: linear-gradient(86deg,#0a8e0a 10%,#0a8e0a 100%);
+    background: linear-gradient(86deg, #0a8e0a 10%, #0a8e0a 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
 .orange-text {
     background-clip: text;
-    background: linear-gradient(86deg,#ff8c00 10%,#643803 100%);
+    background: linear-gradient(86deg, #ff8c00 10%, #643803 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
 footer {
     width: 100%;
-    height: 100px;
+    height: 10%;
     position: absolute;
-    top: 100%;
-    background-color: #44434353;
-    border-top: 1px solid rgba(238, 238, 238, 0.329);
-    backdrop-filter: blur(10px);
-    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
-                0px 2px 4px rgba(0,255,255,0.5), 
-                0px 4px 8px rgba(0,255,255,0.5), 
-                0px 8px 16px rgba(0,255,255,0.5);
+    top: 3500px;
     width: 100%;
     margin: auto;
     left: 0;
     right: 0;
+    text-decoration: none;
 }
 
 footer ul {
-    margin: 0;
-    padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
 }
 
 footer ul a {
@@ -137,6 +132,13 @@ footer ul a {
     color: #fff;
     font-size: 20px;
     margin: 10px;
+}
+
+footer ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    text-decoration: none;
 }
 
 footer p {
@@ -163,10 +165,10 @@ footer a:hover {
     display: block;
     height: auto;
     border-radius: 3%;
-    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
-    0px 2px 4px rgba(0,255,255,0.5), 
-    0px 4px 8px rgba(0,255,255,0.5), 
-    0px 8px 16px rgba(0,255,255,0.5);
+    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+        0px 2px 4px rgba(0, 255, 255, 0.5),
+        0px 4px 8px rgba(0, 255, 255, 0.5),
+        0px 8px 16px rgba(0, 255, 255, 0.5);
 }
 
 .elso {
@@ -177,10 +179,10 @@ footer a:hover {
 
     border-radius: 3%;
 
-    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
-    0px 2px 4px rgba(0,255,255,0.5), 
-    0px 4px 8px rgba(0,255,255,0.5), 
-    0px 8px 16px rgba(0,255,255,0.5);
+    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+        0px 2px 4px rgba(0, 255, 255, 0.5),
+        0px 4px 8px rgba(0, 255, 255, 0.5),
+        0px 8px 16px rgba(0, 255, 255, 0.5);
 }
 
 .elso img {
@@ -200,10 +202,10 @@ footer a:hover {
 
     border-radius: 3%;
 
-    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
-    0px 2px 4px rgba(0,255,255,0.5), 
-    0px 4px 8px rgba(0,255,255,0.5), 
-    0px 8px 16px rgba(0,255,255,0.5);
+    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+        0px 2px 4px rgba(0, 255, 255, 0.5),
+        0px 4px 8px rgba(0, 255, 255, 0.5),
+        0px 8px 16px rgba(0, 255, 255, 0.5);
 }
 
 .masodik img {
@@ -214,15 +216,15 @@ footer a:hover {
     border-radius: 3%;
 }
 
-.masodik-kep{
+.masodik-kep {
     border-radius: 0% 0% 3% 3% !important;
 }
 
-.harmadik-kep{
+.harmadik-kep {
     border-radius: 0% 0% 3% 3% !important;
 }
 
-.negyedik-kep{
+.negyedik-kep {
     border-radius: 0% 0% 3% 3% !important;
 }
 
@@ -235,10 +237,10 @@ footer a:hover {
 
     border-radius: 3%;
 
-    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
-    0px 2px 4px rgba(0,255,255,0.5), 
-    0px 4px 8px rgba(0,255,255,0.5), 
-    0px 8px 16px rgba(0,255,255,0.5);
+    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+        0px 2px 4px rgba(0, 255, 255, 0.5),
+        0px 4px 8px rgba(0, 255, 255, 0.5),
+        0px 8px 16px rgba(0, 255, 255, 0.5);
 }
 
 .harmadik img {
@@ -259,10 +261,10 @@ footer a:hover {
 
     border-radius: 3%;
 
-    box-shadow: 0px 1px 2px rgba(0,255,255,0.5), 
-    0px 2px 4px rgba(0,255,255,0.5), 
-    0px 4px 8px rgba(0,255,255,0.5), 
-    0px 8px 16px rgba(0,255,255,0.5);
+    box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+        0px 2px 4px rgba(0, 255, 255, 0.5),
+        0px 4px 8px rgba(0, 255, 255, 0.5),
+        0px 8px 16px rgba(0, 255, 255, 0.5);
 }
 
 .negyedik img {
