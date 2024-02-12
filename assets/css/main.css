@@ -11,8 +11,8 @@ body {
     background: #1A1423;
     overflow-x: hidden;
     font-family: Gotham;
-    margin-bottom: 100%;
     position: relative;
+    cursor: url(../images/pointer.png), pointer;
 }
 
 nav {
@@ -65,6 +65,17 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.kezdes h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.kezdes p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 section {
     float: left;
     height: 900px;
@@ -87,16 +98,9 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-.sarga-text {
-    background: linear-gradient(86deg, #e8b71a 10%, #c4550a 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .zold-text {
     background-clip: text;
-    background: linear-gradient(86deg, #0a8e0a 10%, #0a8e0a 100%);
+    background: linear-gradient(86deg, #00ff00 10%, #0a8e0a 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -104,6 +108,13 @@ section {
 .orange-text {
     background-clip: text;
     background: linear-gradient(86deg, #ff8c00 10%, #643803 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.piros-text {
+    background-clip: text;
+    background: linear-gradient(86deg, #ff0000 10%, #ee8d8d 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -151,12 +162,6 @@ footer a:hover {
     transition: 0.5s;
 }
 
-
-.lenyeg {
-    margin-top: 10%;
-    width: 100%;
-}
-
 .elso-kep {
     width: 30%;
     margin: 0 auto;
@@ -169,46 +174,89 @@ footer a:hover {
         0px 8px 16px rgba(0, 255, 255, 0.5);
 }
 
-.elso,
+.elso {
+    width: 50%;
+    padding-top: 5%;
+    text-align: center;
+    margin: auto;
+}
+
+.masodik {
+    width: 50%;
+    padding-top: 5%;
+    text-align: center;
+    margin: auto;
+}
+
 .harmadik {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    align-items: flex-start;
+    width: 50%;
+    padding-top: 5%;
+    text-align: center;
+    margin: auto;
 }
 
-.elso h2,
-.harmadik h2,
-.elso p,
-.harmadik p {
-    flex: 1;
-}
-
-.elso img,
-.harmadik img {
-    width: 300px;
-    height: auto;
-    margin-right: 20px;
-}
-
-.masodik,
 .negyedik {
+    width: 50%;
+    padding-top: 5%;
+    text-align: center;
+    margin: auto;
+}
+
+.masodik-kep {
+    height: 400px;
+    width: 800px;
+}
+
+.harmadik-kep {
+    height: 400px;
+    width: 800px;
+}
+
+.negyedik-kep {
+    height: 400px;
+    width: 800px;
+}
+
+.otodik-kep {
+    height: 400px;
+    width: 800px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer ul {
+    text-align: center;
     display: flex;
-    flex-direction: row-reverse;
-    gap: 100px;
-    align-items: flex-start;
+    justify-content: center;
 }
 
-.masodik h2,
-.negyedik h2,
-.masodik p,
-.negyedik p {
-    flex: 1;
+.footer ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
 }
 
-.masodik img,
-.negyedik img {
-    width: 300px;
-    height: auto;
-    margin-left: 20px;
+.footer ul li {
+    list-style: none;
+    display: inline;
+}
+
+.footer p {
+    text-align: center;
+    margin: auto;
+}
+
+.footer a:hover {
+    color: blue;
+    transition: 0.5s;
 }
