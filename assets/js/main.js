@@ -14,3 +14,12 @@ const textToType = `"A röplabdában a csapat olyan, mint a jól olajozott gépe
     }
 
     typeText();
+
+
+window.addEventListener("blur" , () => {
+    document.title = "Gyere vissza👋";
+});
+
+window.addEventListener("focus" , () => {
+    document.title = "Röplabda 🏐";
+});
