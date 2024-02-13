@@ -22,4 +22,4 @@
 
 ## Tesz Weboldal:
 
-
+https://a4a10cc8-4603-4b30-a082-97147b977146-00-3af2fjgv3sy01.janeway.replit.dev/index.html
