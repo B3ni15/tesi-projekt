@@ -123,7 +123,7 @@ footer {
     width: 100%;
     height: 10%;
     position: absolute;
-    top: 3500px;
+    /* top: 3500px; */
     width: 100%;
     margin: auto;
     left: 0;
@@ -259,4 +259,50 @@ footer a:hover {
 .footer a:hover {
     color: blue;
     transition: 0.5s;
+}
+
+.rules {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+    justify-content: jsutify;
+}
+
+.rules .footer {
+    padding-top: 8%;
+}
+
+.history {
+    width: 40%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+    justify-content: jsutify;
+}
+
+.history .footer {
+    padding-top: 14%;
+}
+
+.game {
+    width: 40%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding-top: 2%;
+    justify-content: jsutify;
+}
+
+.game .footer {
+    padding-top: 6%;
 }
